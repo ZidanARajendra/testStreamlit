@@ -91,6 +91,9 @@ with col1:
     st.write(data_customer.transpose().rename(columns={'0':'feature_value'}))
 
 # Load model
+# from catboost import CatBoostClassifier
+# cat_model = CatBoostClassifier()
+# cat_model.load_model('catboost.pkl')
 with open('best_model_cat.pkl', 'rb') as f:
     model_loaded = pickle.load(f)
     
