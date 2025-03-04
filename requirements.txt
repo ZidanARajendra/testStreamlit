@@ -1,6 +1,6 @@
-streamlit==1.16.0
-joblib==1.1.0
-numpy==1.22.4
+streamlit
+joblib
+numpy
 imblearn
-catboost==1.0.6
-
+category_encoders
+catboost
